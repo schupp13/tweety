@@ -3,7 +3,7 @@
     @foreach(range(1,8) as $index)
     <li class="mb-4">
         <div class="flex">
-            <img src="https://www.postplanner.com/hs-fs/hub/513577/file-2886416984-png/blog-files/facebook-profile-pic-vs-cover-photo-sq.png?width=250&height=250&name=facebook-profile-pic-vs-cover-photo-sq.png" alt="" class="rounded-full mr-2" width="40">
+            <img src="https://i.pravatar.cc/40?u={{auth()->user()->email}}" alt="" class="rounded-full mr-2">
             John Doe
         </div>
     </li>
